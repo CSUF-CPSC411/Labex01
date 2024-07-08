@@ -1,7 +1,7 @@
 //
 //  Volunteer.swift
 //  SafeWalkVolunteer
-//
+//  Lab exercise Created by Paul Inventado on 2/9/22.
 //
 
 import Foundation
