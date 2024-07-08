@@ -15,7 +15,7 @@ struct VolunteerAddedView: View {
             Text("Welcome to SafeWalk,  \(theVolunteer.name)!").font(.largeTitle).padding(.bottom, 20)
             /// Use the ternary operator to decide whether to add s or not (hour vs hours)
             /// See https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID71
-            Text("You will be asked to volunteer \(theVolunteer.maxHours) hour \(theVolunteer.maxHours > 1 ? "s" : "") a week.").font(.footnote)
+            Text("You will be asked to volunteer \(theVolunteer.maxHours) hour\(theVolunteer.maxHours > 1 ? "s" : "") a week.").font(.footnote)
         }
     }
 }
