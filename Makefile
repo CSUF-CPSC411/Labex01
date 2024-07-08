@@ -19,7 +19,7 @@ verify_implementation:
 		@echo "Implemented a solution to the problem"
 
 stylecheck: verify_implementation
-	@swiftformat --lint --swiftversion 5.6 --disable trailingSpace .
+	@swiftformat --lint --swiftversion 5.10 --disable trailingSpace .
 
 test: verify_implementation
-	@xcodebuild test -project SafeWalkVolunteer.xcodeproj -scheme SafeWalkVolunteer -sdk iphonesimulator -destination 'name=iPhone 12,OS=15.5'
+	@xcodebuild test -project SafeWalkVolunteer.xcodeproj -scheme SafeWalkVolunteer -sdk iphonesimulator -destination 'name=iPhone 15 Pro,OS=17.5'
